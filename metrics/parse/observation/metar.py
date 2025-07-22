@@ -1,7 +1,8 @@
 import datetime
 import typing
-from enum import IntEnum
 import xml.etree.ElementTree as xml
+
+from enum import IntEnum
 
 from metar import Metar
 from metrics.parse.base_parser import BaseParser
